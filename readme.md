@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/oxechicao/turnstyle/refs/heads/main/turnstyle.png" width="89" />
+    <img src="https://raw.githubusercontent.com/oxechicao/mandacaru-vs/refs/heads/main/mandacaru.png" width="89" />
     <h2 align="center">Turnstyle Theme</h2>
 </p>
 

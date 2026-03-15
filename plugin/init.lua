@@ -1,23 +1,23 @@
--- Copyright (c) 2026 turnstyle
+-- Copyright (c) 2026 mandacaru
 
--- repository: https://github.com/oxechicao/turnstyle-wezterm
+-- repository: https://github.com/oxechicao/mandacaru-wezterm
 -- license: MIT
 
 local main = {}
 
 local main_palette = {
-	base = "#1d263a",
-	overlay = "#2c4259",
-	muted = "#687a87",
-	text = "#e0f0f0",
-	never_enough = "#a3cbd2",
-	tlc = "#da81aa",
-	sole = "#d7a275",
-	gravity = "#75a6eb",
-	sunshower = "#dfdf90",
-	birds = "#4fa190",
-	light_design_high = "#545b6d",
-	light_design_med = "#3c465d",
+	base = "#302834",
+	overlay = "#37283e",
+	muted = "#997166",
+	text = "#f8f8eb",
+	mandacaru = "#d2a0c6",
+	sky = "#a7d9e6",
+	sand = "#f8cf91",
+	flower = "#b8d4b4",
+	land = "#6cbfd5",
+	cactus = "#a7e39c",
+	highlight_high = "#a25039",
+	highlight_med = "#6c473d",
 }
 
 local main_active_tab = {
@@ -34,31 +34,31 @@ function main.colors()
 	return {
 		foreground = main_palette.text,
 		background = main_palette.base,
-		cursor_bg = main_palette.light_design_high,
-		cursor_border = main_palette.light_design_high,
+		cursor_bg = main_palette.highlight_high,
+		cursor_border = main_palette.highlight_high,
 		cursor_fg = main_palette.text,
-		selection_bg = main_palette.light_design_med,
+		selection_bg = main_palette.highlight_med,
 		selection_fg = main_palette.text,
 
 		ansi = {
 			main_palette.overlay,
-			main_palette.never_enough,
-			main_palette.gravity,
-			main_palette.tlc,
-			main_palette.sunshower,
-			main_palette.birds,
-			main_palette.sole,
+			main_palette.mandacaru,
+			main_palette.flower,
+			main_palette.sky,
+			main_palette.land,
+			main_palette.cactus,
+			main_palette.sand,
 			main_palette.text,
 		},
 
 		brights = {
 			main_palette.muted,
-			main_palette.never_enough,
-			main_palette.gravity,
-			main_palette.tlc,
-			main_palette.sunshower,
-			main_palette.birds,
-			main_palette.sole,
+			main_palette.mandacaru,
+			main_palette.flower,
+			main_palette.sky,
+			main_palette.land,
+			main_palette.cactus,
+			main_palette.sand,
 			main_palette.text,
 		},
 
@@ -86,16 +86,16 @@ local darker = {}
 local darker_palette = {
 	base = "#0f1524",
 	overlay = "#182b3e",
-	muted = "#687a87",
-	text = "#e0f0f0",
-	never_enough = "#a3cbd2",
-	tlc = "#da81aa",
-	sole = "#d7a275",
-	gravity = "#75a6eb",
-	sunshower = "#dfdf90",
-	birds = "#4fa190",
-	light_design_high = "#363f53",
-	light_design_med = "#222c44",
+	muted = "#997166",
+	text = "#f8f8eb",
+	mandacaru = "#d2a0c6",
+	sky = "#a7d9e6",
+	sand = "#f8cf91",
+	flower = "#b8d4b4",
+	land = "#6cbfd5",
+	cactus = "#a7e39c",
+	highlight_high = "#363f53",
+	highlight_med = "#222c44",
 }
 
 local darker_active_tab = {
@@ -112,31 +112,31 @@ function darker.colors()
 	return {
 		foreground = darker_palette.text,
 		background = darker_palette.base,
-		cursor_bg = darker_palette.light_design_high,
-		cursor_border = darker_palette.light_design_high,
+		cursor_bg = darker_palette.highlight_high,
+		cursor_border = darker_palette.highlight_high,
 		cursor_fg = darker_palette.text,
 		selection_bg = darker_palette.overlay,
 		selection_fg = darker_palette.text,
 
 		ansi = {
 			darker_palette.overlay,
-			darker_palette.never_enough,
-			darker_palette.gravity,
-			darker_palette.tlc,
-			darker_palette.sunshower,
-			darker_palette.birds,
-			darker_palette.sole,
+			darker_palette.mandacaru,
+			darker_palette.flower,
+			darker_palette.sky,
+			darker_palette.land,
+			darker_palette.cactus,
+			darker_palette.sand,
 			darker_palette.text,
 		},
 
 		brights = {
 			darker_palette.muted,
-			darker_palette.never_enough,
-			darker_palette.gravity,
-			darker_palette.tlc,
-			darker_palette.sunshower,
-			darker_palette.birds,
-			darker_palette.sole,
+			darker_palette.mandacaru,
+			darker_palette.flower,
+			darker_palette.sky,
+			darker_palette.land,
+			darker_palette.cactus,
+			darker_palette.sand,
 			darker_palette.text,
 		},
 
